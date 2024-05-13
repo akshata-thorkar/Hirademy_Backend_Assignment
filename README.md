@@ -35,6 +35,7 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 
 - Create a MySQL database named assistants_db (or a name of your choice).
 - Update the database connection details in the application.properties file located in src/main/resources
+  
   spring.application.name=assignment
   spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db
   spring.datasource.username="your_mysql_username"
