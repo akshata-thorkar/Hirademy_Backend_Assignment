@@ -1,0 +1,103 @@
+{
+	"info": {
+		"_postman_id": "42644278-8c18-4815-9ee7-a3302dd5c133",
+		"name": "Assistant API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27405882"
+	},
+	"item": [
+		{
+			"name": "GetRequest",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:7777/assistants/1",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"assistants",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PostRequest",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kenisha\",\r\n    \"mobile\": \"6565676653\",\r\n    \"email\": \"kenisha@example.com\",\r\n    \"salary\": 50000.0,\r\n    \"city\": \"Pune\",\r\n    \"country\": \"India\",\r\n    \"department\": \"IT\",\r\n    \"role\": \"Software Engineer\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7777/assistants",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"assistants"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PutRequest",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Kenisha2\",\r\n    \"mobile\": \"7666800663\",\r\n    \"email\": \"kenisha@example.com\",\r\n    \"salary\": 56000.0,\r\n    \"city\": \"delhi\",\r\n    \"country\": \"India\",\r\n    \"department\": \"sales\",\r\n    \"role\": \"Analyst\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:7777/assistants/4",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"assistants",
+						"4"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:7777/assistants/4",
+					"host": [
+						"localhost"
+					],
+					"port": "7777",
+					"path": [
+						"assistants",
+						"4"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
