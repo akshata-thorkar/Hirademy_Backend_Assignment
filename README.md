@@ -34,14 +34,16 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 2. **Database Configuration:**
 
 - Create a MySQL database named assistants_db (or a name of your choice).
-- Update the database connection details in the application.properties file located in src/main/resources
+- Update the database connection details in the application.properties file located in src/main/resource
+
+  spring.application.name=assignment  # Name of the Spring Boot application
+  spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db  # JDBC URL for MySQL database
+  spring.datasource.username="your_mysql_username"  # Username for MySQL database
+  spring.datasource.password="your_mysql_password"  # Password for MySQL database
+  spring.jpa.hibernate.ddl-auto=update  # Hibernate DDL auto setting
+  server.port=7777  # Port for running the application (or as per your choice)
+
   
-  spring.application.name=assignment
-  spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db
-  spring.datasource.username="your_mysql_username"
-  spring.datasource.password="your_mysql_password"
-  spring.jpa.hibernate.ddl-auto=update
-  server.port=7777(or as per your choice)
 
 3. **Build and Run the Application:**
  - Navigate to the project directory:
@@ -53,7 +55,7 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 4.**Testing**
   - A postman collection json file named as Assistant API Testing.postman_collection.json is included in this repo,import this in your postman application.
   - Use the imported Postman collection to send requests to the following API endpoints provided you have started your SpringBoot application:
-    POST /assistant: To create a new assistant
+     POST /assistant: To create a new assistant
     GET  /assistant/{id}:To retrieve details of an assistant by its ID
     PUT  /assistant/{id}:To update an existing assistant
     DELETE  /assistant/{id}:To delete an assistant by its ID
