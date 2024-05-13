@@ -52,13 +52,14 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
    mvn clean install
  - Run the application
    This springBoot application will run on http://localhost:7777
-4.**Testing**
+
+4. **Testing**
   - A postman collection json file named as Assistant API Testing.postman_collection.json is included in this repo,import this in your postman application.
   - Use the imported Postman collection to send requests to the following API endpoints provided you have started your SpringBoot application:
-     POST /assistant: To create a new assistant
-    GET  /assistant/{id}:To retrieve details of an assistant by its ID
-    PUT  /assistant/{id}:To update an existing assistant
-    DELETE  /assistant/{id}:To delete an assistant by its ID
+      POST /assistant: To create a new assistant
+      GET  /assistant/{id}:To retrieve details of an assistant by its ID
+      PUT  /assistant/{id}:To update an existing assistant
+      DELETE  /assistant/{id}:To delete an assistant by its ID
   - For particular assistant interaction,change id that you want to interact with
      
 
