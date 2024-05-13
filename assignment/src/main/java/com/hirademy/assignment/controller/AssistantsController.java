@@ -27,7 +27,7 @@ public class AssistantsController {
                 .orElseThrow(() -> new ResourceNotFoundException("Assistant not found with id: " + id));
         return ResponseEntity.ok().body(assistants);
     }
-
+    
     @PutMapping("/{id}")
     public ResponseEntity<Assistants> updateAssistants(@PathVariable(value = "id") Long id,
                                                         @RequestBody Assistants assistantsDetails) {
@@ -46,7 +46,6 @@ public class AssistantsController {
         final Assistants updatedAssistants = assistantsRepository.save(assistants);
         return ResponseEntity.ok(updatedAssistants);
     }
-
     @DeleteMapping("/{id}")
     public ResponseEntity<?> deleteAssistants(@PathVariable(value = "id") Long id) {
         Assistants assistants = assistantsRepository.findById(id)
