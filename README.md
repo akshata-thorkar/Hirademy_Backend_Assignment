@@ -36,12 +36,12 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 - Create a MySQL database named assistants_db (or a name of your choice).
 - Update the database connection details in the application.properties file located in src/main/resource
 
-  spring.application.name=assignment  # Name of the Spring Boot application
-  spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db  # JDBC URL for MySQL database
-  spring.datasource.username="your_mysql_username"  # Username for MySQL database
-  spring.datasource.password="your_mysql_password"  # Password for MySQL database
-  spring.jpa.hibernate.ddl-auto=update  # Hibernate DDL auto setting
-  server.port=7777  # Port for running the application (or as per your choice)
+  spring.application.name=assignment 
+  spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db  
+  spring.datasource.username="your_mysql_username"  
+  spring.datasource.password="your_mysql_password"  
+  spring.jpa.hibernate.ddl-auto=update  
+  server.port=7777 (or as per your choice)
 
   
 
