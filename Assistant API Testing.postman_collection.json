@@ -12,13 +12,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "localhost:7777/assistants/1",
+					"raw": "localhost:7777/assistant/1",
 					"host": [
 						"localhost"
 					],
 					"port": "7777",
 					"path": [
-						"assistants",
+						"assistant",
 						"1"
 					]
 				}
@@ -40,13 +40,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:7777/assistants",
+					"raw": "localhost:7777/assistant",
 					"host": [
 						"localhost"
 					],
 					"port": "7777",
 					"path": [
-						"assistants"
+						"assistant"
 					]
 				}
 			},
@@ -67,13 +67,13 @@
 					}
 				},
 				"url": {
-					"raw": "localhost:7777/assistants/4",
+					"raw": "localhost:7777/assistant/4",
 					"host": [
 						"localhost"
 					],
 					"port": "7777",
 					"path": [
-						"assistants",
+						"assistant",
 						"4"
 					]
 				}
@@ -86,13 +86,13 @@
 				"method": "DELETE",
 				"header": [],
 				"url": {
-					"raw": "localhost:7777/assistants/4",
+					"raw": "localhost:7777/assistant/4",
 					"host": [
 						"localhost"
 					],
 					"port": "7777",
 					"path": [
-						"assistants",
+						"assistant",
 						"4"
 					]
 				}
