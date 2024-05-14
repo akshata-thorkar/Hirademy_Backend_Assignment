@@ -30,7 +30,7 @@ The Assistants Management Application is designed to simplify the process of man
 
 1. **Clone the Repository:**
    ```bash
-  git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
+   git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 
 2. **Database Configuration:**
 
