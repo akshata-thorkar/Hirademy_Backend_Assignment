@@ -34,8 +34,8 @@ The Assistants Management Application is designed to simplify the process of man
 
 2. **Database Configuration:**
 
-- Create a MySQL database named assistants_db (or a name of your choice).
-- Update the database connection details in the application.properties file located in src/main/resource
+- Create a MySQL database named 'assistants_db' (or a name of your choice).
+- Update the database connection details in the 'application.properties' file located in 'src/main/resource'
   ```properties
   spring.application.name=assignment 
   spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db  
