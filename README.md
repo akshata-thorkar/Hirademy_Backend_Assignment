@@ -29,13 +29,14 @@ The Assistants Management Application is designed to simplify the process of man
 ## Setup
 
 1. **Clone the Repository:**
-git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
+   ```bash
+  git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 
 2. **Database Configuration:**
 
 - Create a MySQL database named assistants_db (or a name of your choice).
 - Update the database connection details in the application.properties file located in src/main/resource
-
+  ```properties
   spring.application.name=assignment 
   spring.datasource.url=jdbc:mysql://localhost:3306/assistants_db  
   spring.datasource.username="your_mysql_username"  
@@ -47,8 +48,10 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 
 3. **Build and Run the Application:**
  - Navigate to the project directory:
+   ```bash
    cd assignment
  - Build the application using Maven:
+   ```bash
    mvn clean install
  - Run the application
    This springBoot application will run on http://localhost:7777
@@ -56,8 +59,7 @@ git clone https://github.com/akshata-thorkar/Hirademy_Backend_Assignment.git
 4. **Testing**
   - A postman collection json file named as Assistant API Testing.postman_collection.json is included in this repo,import this in your postman application.
   - Use the imported Postman collection to send requests to the following API endpoints provided you have started your SpringBoot application:
-
-
+     ```endpoints
      POST /assistant: Create a new assistant.
      GET /assistant/{id}: Retrieve details of an assistant by its ID.
      PUT /assistant/{id}: Update an existing assistant.
