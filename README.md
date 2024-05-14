@@ -54,8 +54,10 @@ The Assistants Management Application is designed to simplify the process of man
    ```bash
    mvn clean install
  - Run the application:
-   
-   This springBoot application will run on http://localhost:7777
+   ```bash
+   java -jar target/assignment.jar
+
+  This springBoot application will run on http://localhost:7777
 
 4. **Testing**
   - A postman collection json file named as Assistant API Testing.postman_collection.json is included in this repo,import this in your postman application.
