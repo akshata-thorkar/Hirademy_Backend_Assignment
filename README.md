@@ -53,7 +53,8 @@ The Assistants Management Application is designed to simplify the process of man
  - Build the application using Maven:
    ```bash
    mvn clean install
- - Run the application
+ - Run the application:
+   
    This springBoot application will run on http://localhost:7777
 
 4. **Testing**
